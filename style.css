@@ -113,6 +113,7 @@ letter-spacing: 5px;
     background: #0F1614;
     color: antiquewhite;
     text-align: right;
+    position: relative;
 }
 
 .section2 h2{
@@ -121,4 +122,33 @@ letter-spacing: 5px;
 
 .section2 a {
     color: #588e54;
+}
+
+.section2 ::after{
+    content: "";
+    height: 0.1px;
+    position: absolute;
+    background: rgba(250, 235, 215, 0.096);
+    width: 60%;
+    bottom: 0;
+    left: 50%;
+    transform: translate(-50%);
+
+}
+
+footer{
+    background: #0F1614;
+    display: block;
+    padding: 40px 0;
+}
+ul{
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+    width: 40%;
+}
+
+li{
+    list-style: none;
+    color: antiquewhite;
 }
