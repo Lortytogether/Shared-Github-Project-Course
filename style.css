@@ -66,8 +66,8 @@ a:active{
     opacity: .4;
 }
 
-.section1{
-    padding: 50px;
+.section1,.section2{
+    padding: 100px 100px;
 }
 
 h2{
@@ -79,4 +79,14 @@ h2{
 p{
     margin-top: 20px;
     line-height: 30px;
+}
+
+.section2{
+    background: #0F1614;
+    color: antiquewhite;
+    text-align: right;
+}
+
+.section2 h2{
+    color: antiquewhite;
 }
