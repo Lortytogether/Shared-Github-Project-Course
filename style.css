@@ -82,7 +82,7 @@ h3{
 }
 
 .section1,.section2{
-    padding: 100px 100px;
+    padding: 100px;
 }
 
 .section1{
@@ -149,6 +149,66 @@ ul{
 }
 
 li{
-    list-style: none;
+cursor: pointer;    
+list-style: none;
     color: antiquewhite;
+}
+
+
+
+/* **********RESPONSIVE********** */
+
+@media screen and (max-width:605px) {
+    .section1{
+        display: block;
+    }
+    .img-container{
+        display: none;
+    }
+}
+
+@media screen and (max-width:520px) {
+
+    header{
+        min-height: 50vh;
+    }
+
+    h1{
+        font-size: 3rem;
+    }
+
+    h3{
+        font-size: 1rem;
+        margin: 10px 0;
+    }
+
+    .header-container{
+        padding: 20px 20px;
+
+    }
+
+    .header-container a {
+        transform: scale(0.8);
+        
+    }
+
+    p{
+        font-size: 0.9rem;
+    }
+    .section1,.section2{
+        padding: 40px;
+    }
+    
+    .section1 a,.section2 a{
+        font-size: 0.9rem;
+    }
+    .section2{
+        text-align: left;
+    }
+
+    ul {
+        width: 80%;
+    }
+
+
 }
