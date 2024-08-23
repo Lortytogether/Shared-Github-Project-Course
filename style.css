@@ -98,7 +98,7 @@ h1{
     font-size: 6rem;
 }
 
-h3{
+header h3{
     letter-spacing: .5px;
     color: antiquewhite;
     margin-bottom: 40px;
@@ -127,8 +127,11 @@ h3{
     opacity: .4;
 }
 
+
+/* ************* SECTION 1 *************  */
+
 .section1,.section2{
-    padding: 100px;
+    padding: 70px;
 }
 
 .section1{
@@ -146,7 +149,7 @@ h3{
 
 
 .section1 a:hover, .section2 a:hover{
-letter-spacing: 5px;
+letter-spacing: 3px;
 }
 
 
@@ -155,19 +158,44 @@ letter-spacing: 5px;
     min-height: 300px;
 }
 
+
+/* ************* SECTION 2 *************  */
+
 .section2{
     background: #0F1614;
     color: antiquewhite;
-    text-align: right;
+    text-align: center;
     position: relative;
+    padding: 100px 70px;
+}
+
+.section2-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 60px;
+    width: 100%;
+}
+
+.section2-container h3{
+    font-size: 3rem;
+    letter-spacing: 1px;
+    font-weight: 700;
+    color:  #588e54;
+}
+
+.section2-container p{
+    font-size: 0.9rem;
+
 }
 
 .section2 h2{
+    margin-bottom: 70px;
     color: #faebd7;
 }
 
 .section2 a {
     color: #588e54;
+    font-size: 0.9rem;
 }
 
 .section2 ::after{
@@ -181,6 +209,10 @@ letter-spacing: 5px;
     transform: translate(-50%);
 
 }
+
+
+
+/* ************* FOOTER *************  */
 
 footer{
     background: #0F1614;
@@ -235,7 +267,7 @@ footer li:hover{
         font-size: 3rem;
     }
 
-    h3{
+    header h3{
         font-size: 1rem;
         margin: 10px 0;
     }
